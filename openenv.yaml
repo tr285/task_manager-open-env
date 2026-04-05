@@ -1,0 +1,29 @@
+name: task-manager-openenv
+version: "1.0"
+
+observation:
+  type: Observation
+
+action:
+  type: Action
+
+reward:
+  type: float
+
+endpoints:
+  reset: /reset
+  step: /step
+  state: /state
+
+tasks:
+  - id: easy
+    description: Complete simple tasks with maximum reward
+    max_score: 1.0
+
+  - id: medium
+    description: Balance priority and deadline while completing tasks
+    max_score: 1.0
+
+  - id: hard
+    description: Maximize completion and minimize missed tasks under tighter constraints
+    max_score: 1.0
