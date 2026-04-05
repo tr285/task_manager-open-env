@@ -1,0 +1,15 @@
+[project]
+name = "task-manager"
+version = "0.1.0"
+description = "Task Manager agent for OpenEnv multi-mode deployment"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai",
+    "python-dotenv",
+    "streamlit"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
