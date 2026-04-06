@@ -1,5 +1,4 @@
-pydantic
+fastapi
+uvicorn
 streamlit
-flask
-openai
-python-dotenv
+pydantic
